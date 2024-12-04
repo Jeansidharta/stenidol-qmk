@@ -1,0 +1,15 @@
+# This file intentionally left blank
+BOOTLOADER = rp2040
+
+BOOTMAGIC_ENABLE = yes
+
+SPLIT_KEYBOARD = yes
+SERIAL_DRIVER = vendor
+NKRO_ENABLE = yes
+
+STENO_ENABLE = yes
+STENO_PROTOCOL = geminipr
+RGBLIGHT_ENABLE = yes
+WS2812_DRIVER = vendor
+MOUSEKEY_ENABLE = yes
+EXTRAKEY_ENABLE = yes
