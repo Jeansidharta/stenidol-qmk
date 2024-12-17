@@ -44,9 +44,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [QWERTY_2] = LAYOUT(
         // left
-        KC_ESC,    KC_HOME, KC_UP,          KC_END,   KC_BACKSPACE,
+        KC_ESC,    KC_PGUP, KC_UP,          KC_PGDN,  KC_BACKSPACE,
         KC_TAB,    KC_LEFT, KC_DOWN,        KC_RIGHT, XXXXXXX,
-        KC_DELETE, KC_PGDN, RALT(KC_COMMA), KC_PGUP,  XXXXXXX,
+        KC_DELETE, KC_HOME, RALT(KC_COMMA), KC_END,   XXXXXXX,
                             MO(QWERTY_3),   KC_TRNS,  _______,
 
         // right
