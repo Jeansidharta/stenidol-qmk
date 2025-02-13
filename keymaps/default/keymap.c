@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_P,         KC_O,    KC_I,     KC_U,    KC_Y,
         KC_SEMICOLON, KC_L,    KC_K,     KC_J,    KC_H,
         KC_LGUI,      KC_DOT,  KC_COMMA, KC_M,    KC_N,
-        KC_LALT,      KC_LCTL, KC_LSFT
+                               KC_LALT,  KC_LCTL, KC_LSFT
     ),
     [QWERTY_2] = LAYOUT(
         // left
@@ -50,10 +50,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                             MO(QWERTY_3),   KC_TRNS,  _______,
 
         // right
-        KC_F10,  KC_F9,   KC_F8, KC_F7, KC_PSCR,
-        KC_F11,  KC_F6,   KC_F5, KC_F4, XXXXXXX,
-        _______, KC_F3,   KC_F2, KC_F1, KC_SLASH,
-        _______, _______, _______
+        KC_F10,  KC_F9,   KC_F8,   KC_F7,   KC_PSCR,
+        KC_F11,  KC_F6,   KC_F5,   KC_F4,   XXXXXXX,
+        _______, KC_F3,   KC_F2,   KC_F1,   KC_SLASH,
+                          _______, _______, _______
     ),
     [QWERTY_3] = LAYOUT(
         // left
@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_WH_U, KC_BTN3, KC_MS_U, KC_RBRC, KC_LBRC,
         KC_WH_D, KC_MS_R, KC_MS_D, KC_MS_L, XXXXXXX,
         _______, KC_BTN5, KC_BTN4, KC_BTN2, KC_BTN1,
-        _______, _______, _______
+                          _______, _______, _______
     ),
     [QWERTY_4] = LAYOUT(
         // left
@@ -78,7 +78,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_CLEAR_EEPROM,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        _______,       _______, _______
+                          _______, _______, _______
     ),
     [GAMING] = LAYOUT(
         // left
@@ -88,10 +88,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                       KC_SPACE, KC_LSFT, KC_LCTL,
 
         // right
-        DF(QWERTY),   KC_O,    KC_I,     KC_U, KC_Y,
-        KC_SEMICOLON, KC_L,    KC_K,     KC_J, KC_H,
-        KC_SLASH,     KC_DOT,  KC_COMMA, KC_M, KC_N,
-        KC_LALT,      KC_LCTL, KC_LSFT
+        DF(QWERTY),   KC_O,    KC_I,     KC_U,    KC_Y,
+        KC_SEMICOLON, KC_L,    KC_K,     KC_J,    KC_H,
+        KC_SLASH,     KC_DOT,  KC_COMMA, KC_M,    KC_N,
+                               KC_LALT,  KC_LCTL, KC_LSFT
     ),
     [GAMING_2] = LAYOUT(
         // left
@@ -101,10 +101,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                     DF(QWERTY), KC_LALT, KC_G,
 
         // right
-        DF(QWERTY),   KC_O,    KC_I,     KC_U, KC_Y,
-        KC_SEMICOLON, KC_L,    KC_K,     KC_J, KC_H,
-        KC_SLASH,     KC_DOT,  KC_COMMA, KC_M, KC_N,
-        KC_LALT,      KC_LCTL, KC_LSFT
+        DF(QWERTY),   KC_O,    KC_I,     KC_U,    KC_Y,
+        KC_SEMICOLON, KC_L,    KC_K,     KC_J,    KC_H,
+        KC_SLASH,     KC_DOT,  KC_COMMA, KC_M,    KC_N,
+                               KC_LALT,  KC_LCTL, KC_LSFT
     ),
 	[STENO] = LAYOUT(
         // LEFT SIDE
@@ -117,7 +117,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         DF(QWERTY), STN_N9, STN_N8, STN_N7, STN_N6,
         STN_DR,     STN_TR, STN_LR, STN_PR, STN_FR,
         STN_ZR,     STN_SR, STN_GR, STN_BR, STN_RR,
-        STN_NB,     STN_U,  STN_E
+                            STN_NB, STN_U,  STN_E
 	)
 };
 
