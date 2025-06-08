@@ -75,9 +75,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          QK_BOOTLOADER, XXXXXXX, KC_MPLY, XXXXXXX, XXXXXXX,
                                  KC_TRNS, KC_TRNS, KC_TRNS,
         // right
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_CLEAR_EEPROM,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        KC_F22, KC_F21, KC_F20, KC_F19, XXXXXXX,
+        KC_F23, KC_F18, KC_F17, KC_F16, QK_CLEAR_EEPROM,
+        KC_F24, KC_F15, KC_F14, KC_F13, XXXXXXX,
                           _______, _______, _______
     ),
     [GAMING] = LAYOUT(
